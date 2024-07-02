@@ -6,6 +6,7 @@ import java.util.Map;
 import org.apache.http.HttpStatus;
 import org.junit.jupiter.api.Test;
 
+// This is a nice comment
 class AccessControlIntegrationTest extends IntegrationTest {
 
   @Test
