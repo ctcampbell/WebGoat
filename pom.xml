@@ -154,6 +154,14 @@
   <dependencyManagement>
     <dependencies>
 
+      <!-- https://mvnrepository.com/artifact/com.electronwill.night-config/toml -->
+      <dependency>
+          <groupId>com.electronwill.night-config</groupId>
+          <artifactId>toml</artifactId>
+          <version>3.8.0</version>
+          <scope>runtime</scope>
+      </dependency>
+
       <dependency>
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-core</artifactId>
